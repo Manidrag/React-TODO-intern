@@ -23,7 +23,7 @@ The app is fully responsive and user-friendly.
 
 1. **Clone the repository:**
    ```sh
-   git clone 
+   git clone  https://github.com/Manidrag/React-TODO-intern
    cd React TODO
 
    npm install
