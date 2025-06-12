@@ -1,9 +1,10 @@
-import { useState } from "react";
+import { useState} from "react";
 import TodosList from "./Component/TodoList";
 import uniqid from 'uniqid';
 import Header from "./Component/Header";
 
 function App(){
+  
      const [data,setData]=useState([])   //data
     const [showForm, setShowForm] = useState(false);//form open and close
         
@@ -40,9 +41,13 @@ function App(){
         if (!confirm("Are you sure you want to save this task?")) return;
               setData(prev=>prev.map((item)=>item[0]===id?[item[0],newTask,newDesc,item[3]]:item))
     }
+
+
     return(<>
+  
     {/* Header show */}
     <Header/>
+     
     <div className="flex flex-col items-center mt-8">
         {/* Button to toggle form visibility */}
       <button

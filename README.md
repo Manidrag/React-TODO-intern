@@ -1,8 +1,10 @@
 # React TODO List
 
-A simple and modern To-Do List application built with React and Vite.  
+A simple and modern To-Do List application built with **React** and **Vite**.  
 You can add, edit, delete, and mark tasks as completed.  
 The app is fully responsive and user-friendly.
+
+---
 
 ## Features
 
@@ -12,36 +14,61 @@ The app is fully responsive and user-friendly.
 - Delete tasks
 - Responsive design for mobile and desktop
 
+---
+
 ## Getting Started
 
-### Prerequisites
+## To simply run just 
+===>npm install
+===> npm run dev
 
-- [Node.js](https://nodejs.org/) (v16 or higher recommended)
-- [npm](https://www.npmjs.com/) (comes with Node.js)
-
-### Installation
+### Installation using git
 
 1. **Clone the repository:**
    ```sh
-   git clone  "https://github.com/Manidrag/React-TODO-intern"
+   git clone https://github.com/Manidrag/React-TODO-intern
    cd React-TODO-intern
+   ```
 
-
+2. **Install dependencies:**
+   ```sh
    npm install
+   ```
 
+3. **Run the development server:**
+   ```sh
    npm run dev
+   ```
 
+4. Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+---
 
 ## Project Structure
-   src/
+
+```
+src/
   ├── App.jsx
-  ├── App.css
+  ├── index.css
+  ├── main.jsx
   └── Component/
       ├── Header.jsx
       ├── TodoList.jsx
       └── TodoListItem.jsx
+```
+
+---
 
 ## Technologies Used
-React
-Vite
-CSS (custom, no frameworks)
+
+- React
+- Vite
+- Tailwind CSS
+
+---
+
+---
+
+## Author
+
+[Manish Krishna Joshi](https://github.com/Manidrag)
