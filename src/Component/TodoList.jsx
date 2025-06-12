@@ -12,6 +12,7 @@ export default function TodosList(props){
                         <th>id</th>
                         <th>Task</th>
                         <th>Description</th>
+                        <th>Time</th> {/* Add this */}
                         <th>Actions</th>
                     </tr>
                 </thead>
